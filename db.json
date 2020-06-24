@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Sébastien",
+      "login": "seb",
+      "password": "123"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "title": "Un chat sur jQuery",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Un chat sur Javascript",
+      "userId": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "text": "jQuery c'est encore mieux",
+      "userId": 1,
+      "roomId": 1
+    },
+    {
+      "id": 1,
+      "text": "Javascript c'est super",
+      "userId": 1,
+      "roomId": 1
+    }
+  ]
+}
